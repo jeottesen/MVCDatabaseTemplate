@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>ASP.NET MVC Data Access Techniques</h1>
+    <p class="lead">This template gives examples of various data access techniques.</p>
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Accessing MS SQL Server</h2>
+        <p>
+            Accessing a MSSQL database using Entity Framework natively and with raw SQL
+        </p>
+        <p>@Html.ActionLink("List Courses","MSSQLCourses")</p>
+    </div>
+    <div class="col-md-4">
+        <h2>Accessing MS Access </h2>
+        <p>
+            Accessing an MS Access database using OLEDB and manual mapping.
+        </p>
+        <p><p>@Html.ActionLink("List Courses", "MSAccessCourses")</p></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Accessing Oracle</h2>
+        <p>
+            Accessing an Oracle database using OLEDB and manual mapping.
+        </p>
+        <p><p>@Html.ActionLink("List Courses", "OracleCourses")</p></p>
+    </div>
+</div>
